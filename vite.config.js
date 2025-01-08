@@ -11,7 +11,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  base: '/reactexams/',  // Add this line
+  base: '/',  // Add this line
   server: {
     proxy: {
       "/api": {
