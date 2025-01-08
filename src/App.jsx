@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import CustomTable from "./components/CustomTable";
 import TShirtDesigner from "./components/TShirtDesigner";
 
+
 const App = () => {
   return (
-    <Router>
+    <Router basename="/reactexams">
       <div className="p-4">
         <h1 className="text-2xl font-bold mb-4 text-center">Multi-Feature React App</h1>
         <nav className="mb-4 flex justify-center space-x-4">
