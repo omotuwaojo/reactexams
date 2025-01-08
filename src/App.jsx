@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {  HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import CustomTable from "./components/CustomTable";
 import TShirtDesigner from "./components/TShirtDesigner";
 
