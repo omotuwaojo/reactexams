@@ -13,9 +13,9 @@ const CustomTable = () => {
 
   // Dynamic API URL for different environments
   const apiUrl =
-    process.env.NODE_ENV === "production"
-      ? "https://cors-anywhere.herokuapp.com/https://api.razzakfashion.com"
-      : "/api";  // For development (handled by Vite proxy)
+  process.env.NODE_ENV === "production"
+    ? "https://cors-anywhere.herokuapp.com/https://api.razzakfashion.com"
+    : "/api"; // Local API or development proxy
 
   // Fetch data on page, perPage, or search change
   useEffect(() => {
