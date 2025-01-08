@@ -26,7 +26,7 @@ const CustomTable = () => {
     setLoading(true);
     setError(null);  // Reset error before each request
     try {
-      const response = await axios.get(apiUrl, {
+      const response = await axios.get(`${apiUrl}`, {
         params: {
           paginate: perPage,
           search,
