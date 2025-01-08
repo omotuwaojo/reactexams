@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://api.razzakfashion.com",
+        target: "https://api.razzakfashion.com/",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
