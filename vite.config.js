@@ -11,7 +11,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
-  base: '/',  // Add this line
   server: {
     proxy: {
       "/api": {
